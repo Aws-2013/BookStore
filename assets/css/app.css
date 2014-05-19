@@ -1,0 +1,48 @@
+body {
+  background-color: #F5F5F5;
+  color: #333333;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Verdana, Helvetica, sans-serif; }
+
+#header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1; }
+
+#header, #footer {
+  background-color: #000000;
+  color: #ffffff; }
+
+#footer {
+  margin-top: 40px; }
+
+#pageTitle {
+  border-bottom: 1px solid #cccccc; }
+
+.bookContainer {
+  border: 1px solid #cccccc;
+  margin: 40px 40px 0 0; }
+
+#bookCatalogContainer {
+  clear: both;
+  margin-top: 40px; }
+
+.bookContainer:hover {
+  border: 1px #000000 solid;
+  cursor: pointer; }
+
+.navbar-nav li a {
+  color: #ffffff; }
+
+.navbar-nav li a:hover, .navbar-nav li a:focus, .nav .open a:focus {
+  background-color: #999999; }
+
+.dropdown-menu {
+  background-color: #333; }
+
+.dropdown-menu li a:hover, .dropdown-menu li a:focus {
+  color: #ffffff; }
+
+/*.dropdown .glyphicon.glyphicon-shopping-cart, .caret{color:#ffffff}*/
