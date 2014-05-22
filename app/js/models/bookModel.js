@@ -6,7 +6,7 @@ function(_, Backbone) {
     var BookModel = Backbone.Model.extend({
         defaults: {
             title: '',
-            img: 'images/bookdslfk;jdsfkl;.png',
+            img: 'images/book.png',
             author: '',
             releaseYear: '',
             pages: '0',
